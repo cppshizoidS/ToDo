@@ -1,4 +1,4 @@
-package ru.kheynov.todolistapp.di
+package ru.cppshiz.todolistapp.di
 
 import android.app.Application
 import androidx.room.Room
@@ -6,10 +6,10 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import ru.kheynov.todolistapp.feature_todo.data.data_source.TodoDatabase
-import ru.kheynov.todolistapp.feature_todo.data.repository.TodoRepositoryImpl
-import ru.kheynov.todolistapp.feature_todo.domain.repository.TodoRepository
-import ru.kheynov.todolistapp.feature_todo.domain.use_case.*
+import ru.cppshiz.todolistapp.feature_todo.data.data_source.TodoDatabase
+import ru.cppshiz.todolistapp.feature_todo.data.repository.TodoRepositoryImpl
+import ru.cppshiz.todolistapp.feature_todo.domain.repository.TodoRepository
+import ru.cppshiz.todolistapp.feature_todo.domain.use_case.*
 import javax.inject.Singleton
 
 @Module

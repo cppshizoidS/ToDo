@@ -1,4 +1,4 @@
-package ru.kheynov.todolistapp.ui.theme
+package ru.cppshiz.todolistapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
